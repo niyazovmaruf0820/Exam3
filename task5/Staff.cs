@@ -1,30 +1,30 @@
 class Staff : Person
 {
-    private string School;
-    private double Pay;
+    private string school;
+    private double pay;
     public Staff(string name, string address, string school, double pay) : base(name, address) 
     {
-        School = school;
-        Pay = pay;
+        this.school = school;
+        this.pay = pay;
     }
     public string GetSchool()
     {
-        return School;
+        return school;
     }
     public void SetSchool(string school)
     {
-        School = school;
+        this.school = school;
     }
     public double GetPay()
     {
-        return Pay;
+        return pay;
     }
     public void SetPay(double pay)
     {
-        Pay =pay;   
+        this.pay =pay;   
     }
     public override string ToString()
     {
-        return $"{base.ToString()}\nShool: {School}\nPay: {Pay}";
+        return $"{base.ToString()}\nSchool: {school}\nPay: {pay}";
     }
 }

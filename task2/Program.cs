@@ -1,3 +1,3 @@
-﻿ //inheritance - robitai baini du va ziyoda classo meboshad.
- // inheritance - ba du kism judo meshavad 
- // Derived class          // Base class
+﻿// Robitai baini du va ziyoda classro - inheritance menomand.
+// yane yak class az digar class function va fieldosha meros megirad.
+// inherit bo vositai du nuqta va nomi classe ki mo ay u meros megirem kor mekunad.

@@ -1,3 +1,2 @@
-﻿
-//Polymorfizm is ability to have several forms
-//Virtual metods - hamu methodoe hastand ki dar classi parent meboshand va mo dar classi child metonem funcsionalosha kuchonem ba тариқи klyuchevoe slova override  
+﻿//Polymorfizm - qobiliyati yak chand shakl giriftan. yane yak clasa mo metonem dar digar class functionosha faryod kunem va izmenit kunem. 
+//Virtual metods - methode ki dar classi parent meboshand va mo dar classi child metonem funcsionalosha khdmon override kada izmenit knem.  

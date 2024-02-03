@@ -1,40 +1,40 @@
 class Student : Person
 {
-    private string Program;
-    private int Year;
-    private double Fee;
+    private string program;
+    private int year;
+    private double fee;
     public Student(string name, string address, string program, int year, double fee) : base(name, address) 
     {
-        Program = program;
-        Year = year;
-        Fee = fee;
+        this.program = program;
+        this.year = year;
+        this.fee = fee;
     }
     public string GetProgram()
     {
-        return Program;
+        return program;
     }
     public void SetProgram(string program)
     {
-        Program = program;
+        this.program = program;
     }
     public int GetYear()
     {
-        return Year;
+        return year;
     }
     public void SetYear(int year)
     {
-        Year = year;
+        this.year = year;
     }
     public double GetFee()
     {
-        return Fee;
+        return fee;
     }
     public void SetFee(double fee)
     {
-        Fee = fee;
+        this.fee = fee;
     }
     public override string ToString()
     {
-        return $"{base.ToString()}\nProgram: {Program}\nYear: {Year}\nFee: {Fee}";
+        return $"{base.ToString()}\nProgram: {program}\nYear: {year}\nFee: {fee}";
     }
 }

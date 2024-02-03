@@ -1,26 +1,26 @@
 class Person
 {
-    private string Name;
-    private string Address;
+    private string name;
+    private string address;
     public Person(string name, string address)
     {
-        Name = name;
-        Address = address;
+        this.name = name;
+        this.address = address;
     }
     public string GetName()
     {
-        return Name;
+        return name;
     }
     public string GetAddress()
     {
-        return Address;
+        return address;
     }
     public void SetAddress(string address)
     {
-        Address = address;
+        this.address = address;
     }
     public override string ToString(){
-        return $"Name: {Name},\nAddress: {Address}";
+        return $"Name: {name}\nAddress: {address}";
     }
 }
 

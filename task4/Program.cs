@@ -1,2 +1,2 @@
-﻿// abstract class - classe meboshad ki mo metonem ura prosto khayol knem , yane prosto classi khayoli.
-//Absract method - methode body nadora va classi chalda magbur mekna ki ura override knem va functioni makhsusi khdmona btem. 
+﻿// Abstract class - yak classi khayoli meboshad.Abstract classa mo ba misli yak shablon baroi digar classo gufta metonem.
+// Absract method - methode body nadora va classi chalda  mo ura override meknem va functioni khdmona metiem. 

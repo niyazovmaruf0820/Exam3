@@ -1,4 +1,2 @@
-﻿// List<T> - collectionay 
-//Array opredelenniy число элементов дорa.
-// Da list mo metonem besconechno element dobait knem.
-
+﻿// List<T> - dinamicheskiy massivay - yane massive elementosh besconechno add mesha.
+// Array opredelenniy  kolichestvo elelment dora.

@@ -1,9 +1,9 @@
 public abstract class Animal
 {
-    private string Name { get; set; }
+    private string name { get; set; }
     public Animal(string name)
     {
-        Name = name;
+        this.name = name;
     }
     public abstract void Greet();
 }
